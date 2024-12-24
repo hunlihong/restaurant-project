@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event</title>
+
+    <!-- link header css -->
+    <link rel="stylesheet" href="../css/seavminh.css" />
+    <link rel="stylesheet" href="../css/service_event_menu.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    ></script>
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/thonka.css" />
+
+    <!-- link header css -->
+    <link rel="stylesheet" href="../css/header.css" />
+
+    <!-- link booking css  -->
+    <link rel="stylesheet" href="../css/chansy.css" />
+
+    <!-- link responsive  -->
+    <link rel="stylesheet" href="../css/responsive.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light border py-3">
+      <div class="container">
+        <a
+          style="color: #d4a762; font-family: 'Playball', cursive"
+          class="navbar-brand fs-1"
+          href="#"
+          >Cater<span class="text-dark">Serv</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavButton"
+          aria-label="toggle Navigation"
+          aria-expanded="false"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          id="navbarNavButton"
+          class="position-relative collapse navbar-collapse"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="service.html">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link Active" href="#">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                id="navbarDropdownButton"
+                data-mdb-toggle="dropdown"
+                role="button"
+                aria-expanded="false"
+                href="#"
+                >Pages</a
+              >
+              <div
+                class="dropdown-menu slide-down"
+                aria-labelledby="navbarDropdownButton"
+              >
+                <a class="text-dark dropdown-item" href="booking.html">Book</a>
+                <a class="text-dark dropdown-item" href="ourteam.html"
+                  >Our Team</a
+                >
+                <a class="text-dark dropdown-item" href="ourblog.html"
+                  >Our Blog</a
+                >
+                <a class="text-dark dropdown-item" href="testimonial.html"
+                  >Testimonial</a
+                >
+                <a class="text-dark dropdown-item" href="404page.html"
+                  >404 Page</a
+                >
+              </div>
+            </li>
+          </ul>
+          <form class="position-absolute end-0 d-none d-lg-flex gap-3">
+            <button class="nav-btn px-3 py-2 fw-bold">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <button class="nav-btn px-3 py-2 fw-bold">Book now</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <section class="about-us">
+      <div class="container center-text">
+        <h1 class="about-title">Events</h1>
+        <h4 class="about-page">
+          <span>Home </span>/ <span>Page</span> / Events
+        </h4>
+      </div>
+    </section>
+
+    <!-- event-start -->
+    <section class="container event mt-5">
+      <div class="text-center my-3">
+        <button class="section-btn">LATEST EVENTS</button>
+      </div>
+      <h2 class="text-center my-3 section-title">
+        Our Social & Professional Events Gallary
+      </h2>
+      <div
+        class="event-btn-group d-flex flex-wrap justify-content-center gap-3 my-5"
+      >
+        <button class="active">All Events</button>
+        <button>Wedding</button>
+        <button>Corporate</button>
+        <button>Cocktail</button>
+        <button>Buffet</button>
+      </div>
+      <div class="events row">
+        <!-- <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="position-relative overflow-hidden rounded">
+            <div class="event-effect w-100 h-100 t-0 l-0 position-absolute p-4">
+              <h3>Wedding</h3>
+              <span data-bs-toggle="modal" data-bs-target="#exampleModal"
+                ><i class="fa-solid fa-magnifying-glass-plus"></i
+              ></span>
+            </div>
+            <img class="w-100" src="images/event-1.jpg" alt="" />
+          </div>
+        </div> -->
+      </div>
+    </section>
+    <!-- Button trigger modal -->
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title">Wedding</h3>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img class="img-thumbnail w-100" src="images/event-1.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- event-end -->
+
+    <section id="booking" class="booking-section">
+      <div class="booking-container">
+        <div class="bg-img">
+          <div class="booking-inner-container">
+            <div class="heading">
+              <h1 class="title">BOOK US</h1>
+              <p class="desc">We have experienced chef Team</p>
+            </div>
+
+            <div class="booking-form">
+              <form action="#" class="booking-form-container">
+                <select id="country" class="select-option">
+                  <option value="select-counrty">select-counrty</option>
+                  <option value="USA">USA</option>
+                  <option value="India">India</option>
+                  <option value="Cambodia">Cambodia</option>
+                </select>
+
+                <select class="select-option">
+                  <option value="Select-City">Select-City</option>
+                  <option value="USA">USA</option>
+                  <option value="UK">UK</option>
+                  <option value="India">India</option>
+                </select>
+
+                <select class="select-option">
+                  <option value="select-counrty">select-Place</option>
+                  <option value="USA">USA</option>
+                  <option value="India">India</option>
+                  <option value="Cambodia">Cambodia</option>
+                </select>
+
+                <select class="select-option">
+                  <option value="select-counrty">Small Event</option>
+                  <option value="USA">USA</option>
+                  <option value="India">India</option>
+                  <option value="Cambodia">Cambodia</option>
+                </select>
+
+                <select class="select-option">
+                  <option value="select-counrty">No. of Place</option>
+                  <option value="USA">100</option>
+                  <option value="India">200</option>
+                  <option value="Cambodia">300</option>
+                </select>
+
+                <select class="select-option">
+                  <option value="Select-vegetarial">vegetarial</option>
+                  <option value="USA">USA</option>
+                  <option value="UK">UK</option>
+                  <option value="India">India</option>
+                </select>
+
+                <input
+                  class="select-option"
+                  type="text"
+                  placeholder="Your Contact No."
+                />
+
+                <input class="select-option" type="date" />
+
+                <select class="select-option">
+                  <option value="select-counrty">select-counrty</option>
+                  <option value="USA">USA</option>
+                  <option value="India">India</option>
+                  <option value="Cambodia">Cambodia</option>
+                </select>
+              </form>
+            </div>
+
+            <div class="booking-submit-btn">
+              <button type="button" class="booking-btn">Submit Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-all container">
+        <div class="footer">
+          <h1 id="logo">
+            Cater
+            <span class="text-dark">Serv</span>
+          </h1>
+          <p>
+            There cursus massa at urnaaculis estieSed aliquamellus vitae ultrs
+            condmentum leo massamollis its estiegittis miristum.
+          </p>
+          <ul class="Contact-infor">
+            <li>
+              <a href="404page.html">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="404page.html"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="404page.html"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="404page.html"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="Special-Facilities">
+          <h3>Special Facilities</h3>
+          <ul class="pha">
+            <li><i class="fa-solid fa-check"></i>Cheese Burger</li>
+            <li><i class="fa-solid fa-check"></i>Sandwich</li>
+            <li><i class="fa-solid fa-check"></i>Panner Burger</li>
+            <li><i class="fa-solid fa-check"></i>Special Sweet></li>
+          </ul>
+        </div>
+        <div class="contact-us">
+          <h3>Contact Us</h3>
+          <ul>
+            <li>
+              <i class="fa-solid fa-location-dot" style="margin-right: 10px"></i
+              >123 Street,New York, USA
+            </li>
+            <li>
+              <i class="fa-solid fa-phone-volume" style="margin-right: 10px"></i
+              >(+012)3456 7890 123
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope" style="margin-right: 10px"></i
+              >info@example.com
+            </li>
+            <li>
+              <i class="fa-regular fa-clock" style="margin-right: 10px"></i>
+              26/7 Hours Service
+            </li>
+          </ul>
+        </div>
+        <div>
+          <div>
+            <h3>Social Gallery</h3>
+            <div class="img-footer">
+              <img src="../images/menu-01.jpg" alt="" />
+              <img src="../images/menu-02.jpg" alt="" />
+              <img src="../images/menu-03.jpg" alt="" />
+              <img src="../images/menu-04.jpg" alt="" />
+              <img src="../images/menu-05.jpg" alt="" />
+              <img src="../images/menu-06.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mt-5 container-fluid bg-dark text-white button-footer">
+        <div
+          class="container d-flex flex-wrap flex-column flex-md-row justify-content-between align-items-center text-center"
+        >
+          <p class="mb-0 py-4">
+            &copy;
+            <span style="color: var(--main-color)">Your Site Name</span>, All
+            right reserved.
+          </p>
+          <p class="mb-0 py-4">
+            Designed By
+            <a
+              class="text-decoration-underline"
+              style="color: var(--main-color)"
+              href="https://htmlcodex.com/"
+              >HTML Codex</a
+            >
+            Distributed By
+            <a
+              class="text-decoration-underline"
+              style="color: var(--main-color)"
+              href="https://themewagon.com/"
+              >ThemeWagon</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="../event.js"></script>
+  </body>
+</html>

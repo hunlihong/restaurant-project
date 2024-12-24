@@ -1,0 +1,137 @@
+@media (max-width: 1128px) {
+  .booking-form-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .booking-inner-container {
+    background-color: beige;
+    max-width: 900px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 40px 20px;
+  }
+
+  /*  */
+  .list-icon {
+    /* position: absolute;
+  top: 20px;
+  right: 20px; */
+
+    /* display: flex;
+  flex-direction: column; */
+    gap: 10px;
+  }
+
+  /*  */
+  .profile-name {
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .profile-desc {
+    font-weight: 500;
+    color: gray;
+  }
+}
+
+@media (max-width: 1050px) {
+}
+
+@media (max-width: 997px) {
+  .booking-inner-container {
+    background-color: beige;
+    max-width: 700px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 40px 20px;
+  }
+}
+
+@media (max-width: 997px) {
+  .grid-4-col {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 20px;
+  }
+
+  /*  */
+}
+
+@media (max-width: 770px) {
+  .booking-inner-container {
+    background-color: beige;
+    max-width: 500px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 40px 20px;
+  }
+
+  .title {
+    font-weight: 600;
+    font-size: 14px;
+
+    border: 1px solid #fb923c;
+    border-radius: 50px;
+    padding: 7px 20px;
+  }
+
+  .desc {
+    font-family: "Dancing Script", cursive;
+    font-weight: 900;
+    font-size: 30px;
+  }
+
+  /*  */
+}
+
+@media (max-width: 720px) {
+  .grid-3-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  .booking-form-container {
+    grid-template-columns: 1fr;
+  }
+
+  .booking-inner-container {
+    background-color: beige;
+    max-width: 350px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 40px 20px;
+  }
+
+  .title {
+    font-weight: 600;
+    font-size: 12px;
+
+    border: 1px solid #fb923c;
+    border-radius: 50px;
+    padding: 7px 20px;
+  }
+
+  .desc {
+    font-family: "Dancing Script", cursive;
+    font-weight: 900;
+    font-size: 22px;
+  }
+
+  .booking-form {
+    padding: 0 7px;
+  }
+
+  /*  */
+
+  .grid-4-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap: 20px;
+  }
+}

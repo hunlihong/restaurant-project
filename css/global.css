@@ -1,0 +1,82 @@
+:root {
+  --btn-color: #d4a762;
+  --header-color: var(--bs-light);
+  --menu-color: #9a9a9a;
+  --icon-color: black;
+  --border-buttom-color: rgba(0, 0, 0, 0.5);
+  --hero-font: "Playball", cursive;
+  --titile-font: "Open Sans", sans-serif;
+  --body-color: #fffcf8;
+  --menu-font: "Open Sans", sans-serif;
+  --About-font: "Open Sans", sans-serif;
+  --boder-color-about: #dee2e6;
+}
+
+a {
+  text-decoration: none;
+}
+
+.about-title {
+  margin-bottom: 28px;
+  font-size: 6rem;
+  font-family: "Playball", cursive;
+}
+.about-page {
+  font-size: 1rem;
+}
+
+.about-page > span {
+  color: #d4a762;
+}
+
+.section-btn {
+  font-size: 14px;
+  font-weight: bolder;
+  padding: 5px 1.5rem;
+  border: 1px solid var(--main-color);
+  outline: none;
+  border-radius: 20px;
+  background-color: transparent;
+}
+.section-title {
+  font-family: "Playball", cursive;
+  font-size: 3rem;
+}
+
+/* navbar-start */
+.nav-item {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+.nav-link.Active {
+  color: #d4a762;
+}
+.nav-link.Active:hover {
+  color: #d4a762;
+}
+.nav-btn {
+  background-color: #d4a762;
+  outline: none;
+  border: none;
+  border-radius: 2rem;
+  transition: all 0.3s linear;
+  color: black;
+}
+.nav-btn:hover {
+  background-color: black;
+  color: #d4a762;
+}
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+.dropdown-menu > .dropdown-item {
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.dropdown-menu > .dropdown-item.active {
+  background-color: #d4a762;
+}
+.dropdown-menu > .dropdown-item:hover {
+  background-color: #d4a762;
+}
+/* navbar-end */

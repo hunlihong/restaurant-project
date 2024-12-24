@@ -1,0 +1,858 @@
+/* Start Navbar Section  */
+.navbar {
+  /* background-color: aquamarine; */
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: var(--border-buttom-color);
+  background-color: var(--body-color);
+}
+
+.header-Nav {
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+  /* background-color: palevioletred; */
+}
+
+.navbar-brand {
+  background-color: none;
+}
+
+#logo {
+  margin-right: 30px;
+  color: var(--btn-color);
+  font-size: 2.5rem;
+  font-family: var(--hero-font);
+}
+
+#logo span {
+  font-weight: bold;
+  /* margin-right: 200px; */
+}
+
+.text-dark {
+  color: none;
+}
+
+.nav-link-wrapper {
+  margin-left: 150px;
+  /* font-family: var(--menu-font);  */
+  /* background-color: darkcyan; */
+  color: none;
+}
+
+.navbar-nav {
+  list-style: none;
+}
+
+.nav-item {
+  color: none;
+}
+
+.Search-icon {
+  border-radius: 100%;
+  padding: 15px;
+  background-color: var(--btn-color);
+  color: var(--icon-color);
+  margin-left: 110px;
+  transition: 0.5s;
+}
+
+/* Start Seach-icon Hover  */
+a i:hover {
+  background-color: black;
+  color: var(--btn-color);
+}
+/* End of Search-icon Hover   */
+
+.Nav-btn {
+  border: none;
+  border-radius: 50rem !important;
+  background-color: var(--btn-color);
+  padding: 10px 30px !important;
+  transition: 0.5s;
+}
+/* Start Nav-btn Hover  */
+a button:hover {
+  background-color: black;
+  color: var(--btn-color);
+}
+/* End of Nav-btn Hover  */
+
+/* .nav-link-wrapper .navbar-nav .nav-item a {
+  padding: 0px 12px;
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--menu-color);
+  transition: 0.5s;
+} */
+
+/* Pages Icon  */
+/* .nav-link-wrapper .navbar-nav .nav-item a .pages-icon {
+  color: none;
+} */
+/* End of Pages Icon  */
+
+/* Menu Hover  */
+.nav-link-wrapper .navbar-nav .nav-item a:hover {
+  color: var(--btn-color);
+}
+/* End of Menu Hover  */
+
+.nav-link-wrapper #active {
+  color: var(--btn-color);
+}
+/* End of Navbar Section  */
+
+/* Start Hero Section  */
+.hero-section {
+  background-color: var(--body-color);
+}
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  /* background-color: var(--body-color); */
+}
+
+.main-content img {
+  /* flex-wrap: wrap; */
+  margin-top: 90px;
+  width: 500px;
+  height: auto;
+}
+
+.left-side {
+  margin-top: 15%;
+  margin-left: 15px;
+}
+
+/* .hero-title {
+  text-align: center;
+  font-weight: 400;
+  padding: 0 1.5rem;
+  padding: 5px;
+  border: 1rem;
+  font-family: var(--titile-font);
+  text-align: center;
+  border-radius: 50px;
+  border: 1px solid var(--btn-color);
+} */
+
+.hero-description {
+  /* font-weight: bold; */
+  font-size: 5rem;
+  margin-top: 35px;
+  font-family: var(--hero-font);
+}
+
+/* Cater color  */
+.hero-description span {
+  color: var(--btn-color);
+}
+/* End of Cater color  */
+
+.hero-btn-left {
+  border: none;
+  padding: 1rem 3rem;
+  border-radius: 5rem !important;
+  background-color: var(--btn-color);
+  transition: 0.5s;
+}
+/* Hero button Hover  */
+.left-side a button:hover {
+  color: var(--btn-color);
+  background-color: black;
+}
+
+.hero-btn-right {
+  border: none;
+  margin-top: 15px;
+  margin-left: 30px;
+  padding: 1rem 3rem;
+  border-radius: 5rem !important;
+  background-color: var(--btn-color);
+  transition: 0.5s;
+}
+/* End of Hero Sectioin  */
+
+/* <!-- Start AboutUs Section  --> */
+.About-section .container {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+.my-btn .btn {
+  border: none;
+  margin-top: 15px;
+  padding: 1rem 3rem;
+  border-radius: 5rem !important;
+  background-color: var(--btn-color);
+  transition: 0.5s;
+}
+
+.my-btn a .btn:hover {
+  color: var(--btn-color);
+  background-color: black;
+}
+
+.About-section .container .About-info {
+  margin-left: 50px;
+  /* margin-block-start: 30px; */
+}
+
+/* img-fluid  */
+.About-section .container .img-fluid img {
+  height: auto;
+  width: 500px;
+  border-radius: 8px;
+}
+/* End of img-fluid  */
+
+/* Start About-info (About-title)  */
+.About-section .container .about-title h4 {
+  width: 190px;
+  padding: 6px;
+  padding-top: 10px;
+  border: 1rem;
+  font-size: 1rem;
+  font-family: var(--titile-font);
+  text-align: center;
+  border-radius: 50px;
+  border: 1px solid var(--btn-color);
+  margin-top: 30px;
+}
+/* End of About-info  (About-title) */
+
+/* Start About-info (title)  */
+.About-section .container .title-about h1 {
+  font-family: var(--hero-font);
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 30px;
+}
+/* End of About-info (title)  */
+
+/* Start About-info (description) */
+.About-section .container .description p {
+  font-size: 1rem;
+  font-family: var(--menu-font);
+  color: var(--menu-color);
+  margin-top: 20px;
+  margin-right: 25px;
+}
+/* End of About-info (description) */
+
+/* Start text-option-left  */
+.About-info .text-option {
+  display: flex;
+  justify-content: space-between;
+}
+
+.About-info .text-option .text-option-left .icon-left .icon1 {
+  display: flex;
+  color: var(--btn-color);
+  gap: 10px;
+  margin-block-start: 20px;
+}
+
+.About-info .text-option .text-option-left .icon-left .icon2 {
+  display: flex;
+  color: var(--btn-color);
+  gap: 10px;
+}
+
+.About-info .text-option .text-option-right .icon-right .icon3 {
+  display: flex;
+  color: var(--btn-color);
+  gap: 10px;
+  margin-block-start: 20px;
+}
+
+.About-info .text-option .text-option-right .icon-right .icon4 {
+  display: flex;
+  color: var(--btn-color);
+  gap: 10px;
+}
+
+/* Text Color  */
+.About-info .text-option .text-option-left .icon-left .icon1 h6 {
+  color: black;
+}
+.About-info .text-option .text-option-left .icon-left .icon2 h6 {
+  color: black;
+}
+
+.About-info .text-option .text-option-right .icon-right .icon3 h6 {
+  color: black;
+}
+.About-info .text-option .text-option-right .icon-right .icon4 h6 {
+  color: black;
+}
+/* End of Text color  */
+
+.About-info .text-option .text-option-left h6 {
+  font-family: var(--menu-font);
+  /* margin-block-start: 20px; */
+}
+
+.About-info .text-option .text-option-right h6 {
+  margin-right: 100px;
+  font-family: var(--menu-font);
+  /* margin-block-start: 20px; */
+}
+/* End of text-option-left  */
+
+/* Start btn-info  */
+.About-info .text-option .my-btn .btn {
+  border: none;
+  padding: 1rem 4rem !important;
+  border-radius: 5rem !important;
+  background-color: var(--btn-color);
+  transition: 0.5s;
+  margin-top: 20px !important;
+  margin-bottom: 30px !important;
+}
+
+/* Hover  */
+.text-option .text-option-left .btn:hover {
+  color: var(--btn-color);
+  background-color: black;
+}
+
+/* End of btn-info  */
+
+/* <!-- End of AboutUs Section  --> */
+
+/* Start Card left  */
+.Card .card-left {
+  width: 100%;
+  height: auto;
+  /* flex-wrap: wrap; */
+}
+
+.Card {
+  /* flex-wrap: wrap; */
+  /* display: flex; */
+  margin-top: 100px;
+}
+
+/* Card Flex  */
+.Card .card-left .Content {
+  display: flex;
+  gap: 20px;
+}
+.Card1,
+.Card2,
+.Card3 {
+  /* display: flex; */
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+
+.Icon1 {
+  place-items: center;
+}
+/* Video Flex  */
+.Card .card-left {
+  display: flex;
+}
+
+/* set padding to card  */
+
+.Card .card-left .Content .Card1 {
+  padding: 1.5rem;
+  border-radius: 8px !important;
+  background-color: var(--btn-color);
+  text-align: center;
+}
+
+.Card .card-left .Content .Card2 {
+  padding: 1.5rem 2.6rem;
+  background-color: var(--btn-color);
+  border-radius: 8px !important;
+  text-align: center;
+}
+
+.Card .card-left .Content .Card3 {
+  padding: 1.5rem;
+  background-color: var(--btn-color);
+  border-radius: 8px !important;
+  text-align: center;
+}
+/* End of set padding to card  */
+.Card1 h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  font-family: "Playball", cursive !important;
+}
+.Card2 h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  font-family: "Playball", cursive !important;
+}
+.Card3 h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  font-family: "Playball", cursive !important;
+}
+
+.Card .Video1 iframe {
+  /* margin-bottom: 100px; */
+  border-radius: 10px;
+  width: 500px;
+  height: 350px;
+}
+
+.Card1 .Icon1 {
+  font-family: "Font Awesome 5 Free";
+  font-size: 4rem;
+  font-weight: 900;
+}
+.Card2 .Icon1 {
+  font-family: "Font Awesome 5 Free";
+  font-size: 4rem;
+  font-weight: 900;
+}
+.Card3 .Icon1 {
+  font-family: "Font Awesome 5 Free";
+  font-size: 4rem;
+  font-weight: 900;
+}
+/* End of video  */
+
+/* End of Card left  */
+
+/* Start Card left  */
+.Card .card-left {
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+.Card .card-left {
+  width: 100%;
+  height: auto;
+  /* background-color: rgb(147, 147, 147); */
+}
+
+/* Card Flex  */
+.Card .card-left .Content {
+  display: flex;
+  gap: 20px;
+}
+.Card1,
+.Card2,
+.Card3 {
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Icon1 {
+  place-items: center;
+}
+/* Video Flex  */
+
+/* set padding to card  */
+
+.Card .card-left .Content .Card1 {
+  padding: 1.5rem;
+  border-radius: 8px !important;
+  background-color: var(--btn-color);
+  text-align: center;
+}
+
+.Card .card-left .Content .Card2 {
+  padding: 1.5rem 2.6rem;
+  background-color: var(--btn-color);
+  border-radius: 8px !important;
+  text-align: center;
+}
+
+.Card .card-left .Content .Card3 {
+  padding: 1.5rem;
+  background-color: var(--btn-color);
+  border-radius: 8px !important;
+  text-align: center;
+}
+/* End of set padding to card  */
+.Card1 h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  font-family: "Playball", cursive !important;
+}
+.Card2 h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  font-family: "Playball", cursive !important;
+}
+.Card3 h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  font-family: "Playball", cursive !important;
+}
+
+.Video1 {
+  /* margin-bottom: 100px; */
+  border-radius: 30px;
+}
+
+.Card1 .Icon1 {
+  font-family: "Font Awesome 5 Free";
+  font-size: 4rem;
+  font-weight: 900;
+}
+.Card2 .Icon1 {
+  font-family: "Font Awesome 5 Free";
+  font-size: 4rem;
+  font-weight: 900;
+}
+.Card3 .Icon1 {
+  font-family: "Font Awesome 5 Free";
+  font-size: 4rem;
+  font-weight: 900;
+}
+/* End of video  */
+
+/* End of Card left  */
+
+/* Start Card left  */
+.Card .card-left {
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+.Card .card-left {
+  width: 100%;
+  height: auto;
+  /* background-color: rgb(147, 147, 147); */
+}
+
+/* Card Flex  */
+.Card .card-left .Content {
+  /* display: flex; */
+  gap: 20px;
+}
+.Card1,
+.Card2,
+.Card3 {
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Icon1 {
+  place-items: center;
+}
+/* Video Flex  */
+
+/* set padding to card  */
+
+.Card .card-left .Content .Card1 {
+  padding: 1.5rem;
+  border-radius: 8px !important;
+  background-color: var(--btn-color);
+  text-align: center;
+}
+
+.Card .card-left .Content .Card2 {
+  padding: 1.5rem 2.6rem;
+  background-color: var(--btn-color);
+  border-radius: 8px !important;
+  text-align: center;
+}
+
+.Card .card-left .Content .Card3 {
+  padding: 1.5rem;
+  background-color: var(--btn-color);
+  border-radius: 8px !important;
+  text-align: center;
+}
+/* End of set padding to card  */
+.Card1 h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  font-family: "Playball", cursive !important;
+}
+.Card2 h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  font-family: "Playball", cursive !important;
+}
+.Card3 h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  font-family: "Playball", cursive !important;
+}
+
+.Video1 {
+  /* margin-bottom: 100px; */
+  border-radius: 30px;
+}
+
+.Card1 .Icon1 {
+  font-family: "Font Awesome 5 Free";
+  font-size: 4rem;
+  font-weight: 900;
+}
+.Card2 .Icon1 {
+  font-family: "Font Awesome 5 Free";
+  font-size: 4rem;
+  font-weight: 900;
+}
+.Card3 .Icon1 {
+  font-family: "Font Awesome 5 Free";
+  font-size: 4rem;
+  font-weight: 900;
+}
+/* End of video  */
+
+/* End of Card left  */
+
+/* Hero section Responsive  */
+
+@media (max-width: 980px) {
+  .main-content {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 460px) {
+  #logo span {
+    font-weight: 200;
+    /* margin-right: 200px; */
+  }
+  .hero-description {
+    font-weight: 200;
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 616px) {
+  #logo span {
+    font-weight: 200;
+    /* margin-right: 200px; */
+  }
+  .hero-description {
+    font-weight: 200;
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 415px) {
+  .hero-btn-right {
+    margin-top: 15px;
+    margin-left: 0px;
+    padding: 1rem 3rem;
+  }
+}
+/* End of Hero section Responsive  */
+
+/* Start About Us section Responsive  */
+@media (max-width: 980px) {
+  .About-section .container {
+    justify-content: center;
+    /* display: flex; */
+    flex-wrap: wrap;
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 460px) {
+  .About-info .text-option {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 616px) {
+  .About-info .text-option {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 415px) {
+  .About-info .text-option {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .About-section .container .title-about h1 {
+    font-family: var(--hero-font);
+    font-size: 1.8rem;
+    font-weight: bolder;
+    margin-top: 30px;
+  }
+}
+
+/* End of About Us section Responsive  */
+
+/* Start Card section Responsive  */
+@media (max-width: 980px) {
+  .Card .card-left {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .Card .Video1 iframe {
+    /* margin-bottom: 100px; */
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 600px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 616px) {
+  .Card .card-left {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Card .Video1 iframe {
+    /* margin-bottom: 100px; */
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 500px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 460px) {
+  .Card .card-left {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Card .Video1 iframe {
+    /* margin-bottom: 100px; */
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 400px;
+    height: 350px;
+  }
+  .Card .card-left .Content {
+    /* display: flex; */
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .Card .card-left .Content .Card1,
+  .Card2,
+  .Card3 {
+    width: 400px;
+  }
+}
+
+@media (max-width: 1149px) {
+  .Card .card-left {
+    width: 100%;
+    height: auto;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+  }
+  .Card .Video1 iframe {
+    /* margin-bottom: 100px; */
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 400px;
+    height: 350px;
+  }
+  .Card .card-left .Content {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    gap: 20px;
+  }
+  .Card .card-left .Content .Card1,
+  .Card2,
+  .Card3 {
+    width: 200px;
+  }
+}
+
+@media (max-width: 975px) {
+  .Card .Video1 iframe {
+    margin-left: 8px;
+    margin-right: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 641px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 1399px) {
+  .Card .Video1 iframe {
+    margin-left: 8px;
+    margin-right: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 641px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 720px) {
+  .Card .Video1 iframe {
+    margin-left: 8px;
+    margin-right: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 500px;
+    height: 350px;
+  }
+
+  .Card .card-left .Content .Card1,
+  .Card2,
+  .Card3 {
+    width: 150px;
+    height: 280px;
+  }
+
+  @media (max-width: 390px) {
+    .main-content img {
+      width: 100%;
+      max-width: 400px;
+      margin-left: 40px;
+    }
+    .hero-section {
+      margin-left: 40px;
+    }
+    .img-fluid img {
+      width: 100%;
+      max-width: 400px;
+    }
+    .Card .Video1 iframe {
+      margin-left: 68px;
+      margin-right: 5px;
+      margin-top: 20px;
+      border-radius: 10px;
+      width: 400px;
+      height: 350px;
+    }
+    .Card .card-left .Content .Card1,
+    .Card2,
+    .Card3 {
+      width: 400px;
+      height: 280px;
+      margin-left: 60px;
+    }
+  }
+}
+/* End of Card section Responsive  */

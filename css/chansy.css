@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Playball&family=Poppins:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  /* font-family: "Playball", cursive; */
+  font-family: "Poppins", sans-serif;
+}
+
+.grid {
+  display: grid;
+  align-items: center;
+  gap: 20px;
+}
+
+.grid-3-col {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 20px;
+}
+
+.testimonial-container .grid-3-col {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 20px;
+}
+
+input {
+  border: 1px solid;
+  outline: none;
+}
+
+.booking-section,
+.teams-section,
+.testimonial-section {
+  padding: 96px 20px;
+}
+
+.booking-container,
+.teams-container,
+.testimonial-container {
+  max-width: 1300px;
+  margin: 0 auto;
+
+  padding: 0 20px;
+}
+
+.bg-img {
+  border-radius: 10px;
+  width: 100%;
+  overflow: hidden;
+  background-image: url(https://kiloit-learning.s3.ap-southeast-1.amazonaws.com/sample/CaterServ/img/background-site.jpg);
+}
+
+.booking-inner-container {
+  background-color: beige;
+  max-width: 1100px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 40px 20px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.booking-form {
+  padding: 0 30px;
+}
+
+.booking-form-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 20px;
+}
+
+.select-option {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  width: 100%;
+  padding: 13px;
+  border-radius: 15px;
+}
+
+.booking-submit-btn {
+  display: grid;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.booking-btn {
+  padding: 10px 30px;
+  border-radius: 25px;
+  background-color: #d4a762;
+  border: none;
+  outline: none;
+
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* teams section */
+
+.teams-contaier {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.team {
+  margin-top: 40px;
+}
+
+.teams-contaier:hover .hidden {
+  opacity: 1;
+}
+
+.teams-contaier:hover .teams-text-box {
+  background-color: #d4a762;
+}
+
+.teams-contaier:hover .team-title {
+  color: black;
+}
+.grid-4-col {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  gap: 20px;
+}
+
+.img-box {
+  position: relative;
+}
+
+.list-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  transition: all 0.7s ease-in-out;
+}
+
+.img {
+  width: 100%;
+}
+
+.icon {
+  background-color: #d4a762;
+
+  padding: 15px;
+  border-radius: 100%;
+  cursor: pointer;
+
+  transition: all 0.7s ease-in-out;
+}
+
+.icon:hover {
+  background-color: black;
+  color: #d4a762;
+}
+
+.active {
+  display: block;
+}
+
+.list-icon > .hidden {
+  opacity: 0;
+  transition: all 0.7s ease-in-out;
+}
+
+.center-content {
+  display: grid;
+  justify-content: center;
+}
+
+.teams-text-box {
+  background-color: black;
+  color: white;
+
+  padding: 5px 0;
+
+  transition: all 0.7s ease-in-out;
+}
+
+.team-title {
+  text-align: center;
+  transition: all 0.7s ease-in-out;
+}
+
+.team-position {
+  text-align: center;
+}
+
+/* testimonial */
+
+.profile-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.hidden-overflow {
+  overflow: hidden;
+}
+
+.space {
+  margin-top: 20px;
+}
+
+.profile-card {
+  padding: 20px;
+  border: 0.5px solid #d4a762;
+
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.parent {
+  position: relative;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-name {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.profile-desc {
+  font-weight: 200;
+  color: gray;
+}
+
+.profile-img {
+  border-radius: 100%;
+}
+
+.owl-carousel .owl-stage .profile-img {
+  width: 30%;
+}
+
+.qoute-icon {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+
+  color: gray;
+}
+
+.detail-icon {
+  color: #d4a762;
+}
+
+.detail-desc > p {
+  font-weight: 500;
+  color: gray;
+  font-size: 14px;
+  line-height: 1.6;
+}
